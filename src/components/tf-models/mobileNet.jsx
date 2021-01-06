@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
 import * as mobilenet from '@tensorflow-models/mobilenet';
 
-import '../nsfwjs-model/nsfwjs.css';
+import './tf-models.css';
 
 const acceptedImgFormat = "image/gif, image/jpeg, image/png";
 
@@ -65,7 +65,7 @@ export default () => {
                     crossOrigin='anonymous'
                 />)
                 :
-                <div id='uploadImgInputRef' onClick={handleClick}>
+                <div id='uploadImgInputRef' onClick={handleClick} onKeyDown={handleClick} role='button' tabIndex={0}>
                     <div>
                         <FontAwesomeIcon icon={faImages} id='uploadImgIcon' />
                         <p className='uploadImgTxt'>Click here to upload an image</p>

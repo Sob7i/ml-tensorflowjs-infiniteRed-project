@@ -1,0 +1,90 @@
+p {
+    width: 640px;
+}
+
+
+.uploadImgInput {
+    display: none;
+}
+
+#uploadImgInputRefWrapper {
+    position     : relative;
+    margin       : auto;
+    width        : 650px;
+    height       : 260px;
+    background   : white;
+    border-radius: 23px;
+}
+
+#uploadImgInputRef {
+    position  : relative;
+    margin-top: 10px;
+    width     : 660px;
+    height    : 200px;
+    background: white;
+    border    : dashed 2px lightgray;
+}
+
+#uploadImgInputRef:hover {
+    cursor : pointer;
+    opacity: 0.5;
+}
+
+#uploadImgIcon {
+    position : absolute;
+    top      : 24%;
+    left     : 43%;
+    color    : gray;
+    margin   : auto;
+    font-size: 80px
+}
+
+.uploadImgTxt {
+    position: absolute;
+    top     : 68%;
+    left    : 31%;
+}
+
+#outputImg {
+    width : 400px;
+    height: 400px;
+}
+
+#webcam-embed {
+    position      : relative;
+    display       : block;
+    width         : 100%;
+    height        : 0;
+    padding-bottom: 50%;
+    margin-bottom : 5%;
+    border        : 1px solid #031f50;
+}
+
+#webcam {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 100%;
+}
+
+#enable-webcam {
+    background-color: #031f50;
+    color           : white;
+    border-radius   : 7%;
+    height          : 40px;
+}
+
+#enable-webcam:hover {
+    background-color: #f50057;
+    cursor          : pointer;
+}
+
+ .predictionsList {
+        display: block;
+    padding: 16px;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+/* .predictionsListItem {}  */
